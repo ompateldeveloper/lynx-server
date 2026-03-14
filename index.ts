@@ -4,7 +4,7 @@ import { cors } from "hono/cors";
 import publicRouter from "./src/routes/public.routes.js";
 import privateRouter from "./src/routes/private.routes.js";
 
-const app = new Hono();
+const app = new Hono().basePath("/api");
 
 app.use(cors());
 
