@@ -1,0 +1,28 @@
+{
+  "name": "lynx-server",
+  "module": "index.ts",
+  "description": "Latency Yield Network eXplorer Server",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/pg": "^8.18.0",
+    "prisma": "^7.5.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@better-auth/expo": "^1.5.5",
+    "@better-auth/infra": "^0.1.11",
+    "@better-auth/prisma-adapter": "^1.5.5",
+    "@prisma/adapter-pg": "^7.5.0",
+    "@prisma/client": "^7.5.0",
+    "better-auth": "^1.5.5",
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "hono": "^4.12.7",
+    "pg": "^8.20.0"
+  },
+  "version": "dev"
+}
