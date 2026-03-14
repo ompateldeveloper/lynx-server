@@ -1,6 +1,6 @@
 import { Hono } from "hono";
-import { getStats, recordPing, runPing } from "../controllers/ping.controller";
-import { getLeaderboard } from "../controllers/leaderboard.controller";
+import { getStats, recordPing, runPing } from "../controllers/ping.controller.js";
+import { getLeaderboard } from "../controllers/leaderboard.controller.js";
 
 const publicRouter = new Hono();
 
